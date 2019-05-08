@@ -10,7 +10,7 @@ class Game {
 	* @return {array} An array of phrases that could be used in the game
 	*/
 	createPhrases() {
-		const phrases = ['test1', 'test2', 'test3', 'test4', 'test5'];
+		const phrases = ['test 1', 'te st2', 't est3', 'tes t4', 'te st5'];
 		for (let i = 0; i < 5; i++) {
 			this.phrases.push( new Phrase(phrases[i]));
 		}
