@@ -16,7 +16,7 @@ class Phrase {
 			const li = document.createElement('LI');
 			 if (phraseArray[i] === ' ') {
 				
-				li.className = 'hide letter space';
+				li.className = 'space';
 				li.textContent = phraseArray[i];
 				ul.appendChild(li);
 			} else {
